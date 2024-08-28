@@ -24,7 +24,7 @@ int print_one_dim_array(double array[], int array_length) {
 }
 
 //двумерный массив ввод
-int fill_out_two_dim_array(double *array, const int size_x, const int size_y) {
+int fill_out_two_dim_array(double array[], const int size_x, const int size_y) {
     assert(array);
     assert(size_x);
     assert(size_y);
@@ -41,7 +41,7 @@ int fill_out_two_dim_array(double *array, const int size_x, const int size_y) {
 }
 
 //двумерный массив вывод
-int print_two_dim_array(double *array, const int size_x, const int size_y) {
+int print_two_dim_array(double array[], const int size_x, const int size_y) {
     assert(array);
     assert(size_x);
     assert(size_y);
@@ -56,3 +56,5 @@ int print_two_dim_array(double *array, const int size_x, const int size_y) {
 
     return 0;
 }
+
+
